@@ -68,7 +68,10 @@
 }
 
 @media(max-width:600px){
- .observed-pane-mobile{overflow:auto;scrollbar-width:thin;scrollbar-color:#40516b #0f172b}
+ .observed-pane-mobile{overflow:clip;border-radius:15px;margin-bottom:12px}
+ .observed-pane-mobile *{overflow:visible!important;max-height:none!important}
+ .observed-pane-mobile pre,.observed-pane-mobile code{white-space:pre-wrap!important;overflow-wrap:anywhere!important}
+ .observed-pane-mobile[aria-label="SOURCE CODE"]>div>section div{height:auto!important;min-height:0!important}
  .observed-pane-mobile>div>section>header,.observed-pane-mobile>div>section>div{width:100%!important;max-width:100%!important;box-sizing:border-box}
  .observed-pane-mobile[aria-label="CONSOLE OUTPUT"]{background:#0f172b}
 }
