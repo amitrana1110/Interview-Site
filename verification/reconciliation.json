@@ -1,0 +1,8 @@
+{
+  "id": "reconciliation",
+  "examples": 3,
+  "states": 20,
+  "panelsAndValues": true,
+  "activeStyles": true,
+  "controls": true
+}

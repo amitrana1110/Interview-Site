@@ -1,0 +1,1338 @@
+{
+  "async-await": {
+    "url": "https://visualizejs.com/javascript/async-await",
+    "sha256": "ff6ad7e88a1ce8b0671e42311a519a363690c1faf86c71aa184d1e323e713506",
+    "examples": [
+      {
+        "name": "await yields to the caller",
+        "states": 11,
+        "panels": [
+          "SOURCE CODE",
+          "CALL STACK",
+          "MICROTASK QUEUE",
+          "ASYNC FUNCTION STATE",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Sequential vs Promise.all",
+        "states": 15,
+        "panels": [
+          "SOURCE CODE",
+          "CALL STACK",
+          "TIMERS",
+          "MICROTASK QUEUE",
+          "TIMELINE",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Errors and try/catch",
+        "states": 15,
+        "panels": [
+          "SOURCE CODE",
+          "CALL STACK",
+          "MICROTASK QUEUE",
+          "ASYNC FUNCTION STATE",
+          "CONSOLE OUTPUT"
+        ]
+      }
+    ]
+  },
+  "caching-strategies": {
+    "url": "https://visualizejs.com/backend/caching-strategies",
+    "sha256": "4b7b0c5c46cb9d98a5365ebcc64fc4a35a0eaacc0a0a2668465d9e4ea3dd74ef",
+    "examples": [
+      {
+        "name": "Cache-aside",
+        "states": 15,
+        "panels": [
+          "SOURCE CODE",
+          "CACHE STORE",
+          "STATS",
+          "MESSAGES"
+        ]
+      },
+      {
+        "name": "Write-through and write-behind",
+        "states": 12,
+        "panels": [
+          "SOURCE CODE",
+          "CACHE STORE",
+          "STATS",
+          "WRITE QUEUE",
+          "MESSAGES"
+        ]
+      },
+      {
+        "name": "LRU eviction",
+        "states": 12,
+        "panels": [
+          "SOURCE CODE",
+          "RECENCY LIST",
+          "CACHE STORE",
+          "STATS"
+        ]
+      }
+    ]
+  },
+  "closure": {
+    "url": "https://visualizejs.com/javascript/closures",
+    "sha256": "dfa88b1d15622018ac298723c7eccc981987638434ddaad0fe7ec91eb07a216e",
+    "examples": [
+      {
+        "name": "Default",
+        "states": 11,
+        "panels": [
+          "SOURCE CODE",
+          "CALL STACK",
+          "SCOPE CHAIN",
+          "CONSOLE OUTPUT"
+        ]
+      }
+    ]
+  },
+  "concurrent-rendering": {
+    "url": "https://visualizejs.com/react/concurrent-rendering",
+    "sha256": "d44b9f882fa44cedeb10ea85422f4bbeb36036ac48824a5cc59c2578890e7eaa",
+    "examples": [
+      {
+        "name": "Blocking render",
+        "states": 9,
+        "panels": [
+          "SOURCE CODE",
+          "LANES",
+          "WORK LOOP",
+          "FRAME TIMELINE",
+          "DOM"
+        ]
+      },
+      {
+        "name": "startTransition",
+        "states": 14,
+        "panels": [
+          "SOURCE CODE",
+          "LANES",
+          "WORK LOOP",
+          "FRAME TIMELINE",
+          "DOM"
+        ]
+      },
+      {
+        "name": "useDeferredValue and Suspense",
+        "states": 11,
+        "panels": [
+          "SOURCE CODE",
+          "LANES",
+          "WORK LOOP",
+          "FRAME TIMELINE",
+          "DOM"
+        ]
+      }
+    ]
+  },
+  "context": {
+    "url": "https://visualizejs.com/react/context-propagation",
+    "sha256": "2500e46441de7c6c4f474ec7c6c64cf94b2c7057ec9695459bff8f796c1e1f96",
+    "examples": [
+      {
+        "name": "Basic Provider",
+        "states": 7,
+        "panels": [
+          "SOURCE CODE",
+          "COMPONENT TREE",
+          "CONTEXT REGISTRY",
+          "CONSUMER STATE"
+        ]
+      },
+      {
+        "name": "Nested Providers",
+        "states": 6,
+        "panels": [
+          "SOURCE CODE",
+          "COMPONENT TREE",
+          "CONTEXT REGISTRY",
+          "CONSUMER STATE"
+        ]
+      },
+      {
+        "name": "Consumer Re-renders",
+        "states": 8,
+        "panels": [
+          "SOURCE CODE",
+          "COMPONENT TREE",
+          "CONTEXT REGISTRY",
+          "CONSUMER STATE"
+        ]
+      }
+    ]
+  },
+  "database-indexing": {
+    "url": "https://visualizejs.com/backend/database-indexing",
+    "sha256": "f15711e89879eafce18d438ae62bef7a6a1ec2a4c89d94b1afcd9e9a8eebae58",
+    "examples": [
+      {
+        "name": "Full scan vs index",
+        "states": 13,
+        "panels": [
+          "SOURCE CODE",
+          "TABLE PAGES",
+          "QUERY PLAN",
+          "B-TREE: USERS_EMAIL_IDX",
+          "INDEX DEFINITION"
+        ]
+      },
+      {
+        "name": "Composite index and column order",
+        "states": 11,
+        "panels": [
+          "SOURCE CODE",
+          "TABLE PAGES",
+          "QUERY PLAN",
+          "B-TREE: USERS_NAME_IDX",
+          "INDEX DEFINITION"
+        ]
+      },
+      {
+        "name": "The cost of indexes",
+        "states": 11,
+        "panels": [
+          "SOURCE CODE",
+          "TABLE PAGES",
+          "QUERY PLAN",
+          "B-TREE: USERS_EMAIL_IDX",
+          "WRITE LOG"
+        ]
+      }
+    ]
+  },
+  "debounce": {
+    "url": "https://visualizejs.com/javascript/debounce-throttle",
+    "sha256": "1958cbb8fd3b67c19ea23ee45cbbd95db489e39b1a86408f6e0e8a1e9e9db24a",
+    "examples": [
+      {
+        "name": "Debounce a search input",
+        "states": 13,
+        "panels": [
+          "SOURCE CODE",
+          "TIMELINE",
+          "TIMER",
+          "CLOSURE STATE",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Throttle a scroll handler",
+        "states": 14,
+        "panels": [
+          "SOURCE CODE",
+          "TIMELINE",
+          "TIMER",
+          "THROTTLE STATE",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Choosing between them",
+        "states": 12,
+        "panels": [
+          "SOURCE CODE",
+          "TIMELINE",
+          "COMPARISON",
+          "CONSOLE OUTPUT"
+        ]
+      }
+    ]
+  },
+  "delegation": {
+    "url": "https://visualizejs.com/javascript/event-delegation",
+    "sha256": "8cdeed2c3fab02a8311725eb22834d5e21f4e0e91c4d2c40c73218c5777d8d81",
+    "examples": [
+      {
+        "name": "Capture & Bubble",
+        "states": 9,
+        "panels": [
+          "SOURCE CODE",
+          "DOM TREE",
+          "EVENT PATH",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "stopPropagation",
+        "states": 8,
+        "panels": [
+          "SOURCE CODE",
+          "DOM TREE",
+          "EVENT PATH",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Event Delegation",
+        "states": 9,
+        "panels": [
+          "SOURCE CODE",
+          "DOM TREE",
+          "EVENT PATH",
+          "CONSOLE OUTPUT"
+        ]
+      }
+    ]
+  },
+  "destructuring": {
+    "url": "https://visualizejs.com/javascript/destructuring",
+    "sha256": "17654da19f20389daa5c6406ef1d9061c048749146f8ac14bbd5292e5cd972a5",
+    "examples": [
+      {
+        "name": "Array Destructuring",
+        "states": 7,
+        "panels": [
+          "SOURCE CODE",
+          "VARIABLES",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Object Destructuring",
+        "states": 7,
+        "panels": [
+          "SOURCE CODE",
+          "VARIABLES",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Defaults & Nested",
+        "states": 8,
+        "panels": [
+          "SOURCE CODE",
+          "VARIABLES",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Function Parameters",
+        "states": 8,
+        "panels": [
+          "SOURCE CODE",
+          "VARIABLES",
+          "CONSOLE OUTPUT"
+        ]
+      }
+    ]
+  },
+  "effects": {
+    "url": "https://visualizejs.com/react/use-effect-lifecycle",
+    "sha256": "fef223d4fb1fcd6ed477486fa37c6d54a96834d6cd3e8dec18a9e9e4c76d9c20",
+    "examples": [
+      {
+        "name": "Mount & Unmount",
+        "states": 8,
+        "panels": [
+          "SOURCE CODE",
+          "COMPONENT TREE",
+          "EFFECT TIMELINE",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Dependency Array",
+        "states": 9,
+        "panels": [
+          "SOURCE CODE",
+          "COMPONENT TREE",
+          "EFFECT TIMELINE",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Cleanup Timing",
+        "states": 8,
+        "panels": [
+          "SOURCE CODE",
+          "COMPONENT TREE",
+          "EFFECT TIMELINE",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Common Patterns",
+        "states": 6,
+        "panels": [
+          "SOURCE CODE",
+          "COMPONENT TREE",
+          "EFFECT TIMELINE",
+          "CONSOLE OUTPUT"
+        ]
+      }
+    ]
+  },
+  "error-boundaries": {
+    "url": "https://visualizejs.com/react/error-boundaries",
+    "sha256": "7c345716455ec2758d7162c103cde13b1a228dc60bcc35589a3eaf123ef9bb16",
+    "examples": [
+      {
+        "name": "Basic Error Boundary",
+        "states": 8,
+        "panels": [
+          "SOURCE CODE",
+          "COMPONENT TREE",
+          "ERROR STATE"
+        ]
+      },
+      {
+        "name": "Nested Boundaries",
+        "states": 8,
+        "panels": [
+          "SOURCE CODE",
+          "COMPONENT TREE",
+          "ERROR STATE"
+        ]
+      },
+      {
+        "name": "Recovery Pattern",
+        "states": 8,
+        "panels": [
+          "SOURCE CODE",
+          "COMPONENT TREE",
+          "ERROR STATE"
+        ]
+      }
+    ]
+  },
+  "event-loop": {
+    "url": "https://visualizejs.com/javascript/event-loop",
+    "sha256": "5c251fee1d165d70684db632f2b5e82f0e3b03afee365327e076399bf680eff4",
+    "examples": [
+      {
+        "name": "Default",
+        "states": 17,
+        "panels": [
+          "SOURCE CODE",
+          "CALL STACK",
+          "WEB APIS",
+          "MICROTASK QUEUE",
+          "TASK QUEUE",
+          "EVENT LOOP",
+          "CONSOLE OUTPUT"
+        ]
+      }
+    ]
+  },
+  "execution-context": {
+    "url": "https://visualizejs.com/javascript/execution-context",
+    "sha256": "b705bda63906617ea94a3e75158b5fb6456a1eb29699d2f8c93091b432a33fa5",
+    "examples": [
+      {
+        "name": "Default",
+        "states": 12,
+        "panels": [
+          "CURRENT PHASE",
+          "SOURCE CODE",
+          "EXECUTION CONTEXT STACK",
+          "ACTIVITY",
+          "CONSOLE OUTPUT"
+        ]
+      }
+    ]
+  },
+  "fiber-tree": {
+    "url": "https://visualizejs.com/react/fiber-tree",
+    "sha256": "3734886c53c8ab44f15554dc8aceffd3c496ba650e4b770cb0f7662ed5e1aff5",
+    "examples": [
+      {
+        "name": "Work Loop Traversal",
+        "states": 13,
+        "panels": [
+          "SOURCE CODE",
+          "FIBER TREE",
+          "WORK LOOP",
+          "FIBER DETAIL"
+        ]
+      },
+      {
+        "name": "Unit of Work",
+        "states": 9,
+        "panels": [
+          "SOURCE CODE",
+          "FIBER TREE",
+          "WORK LOOP",
+          "FIBER DETAIL"
+        ]
+      }
+    ]
+  },
+  "garbage-collection": {
+    "url": "https://visualizejs.com/javascript/garbage-collection",
+    "sha256": "b35566688871190036a19e62a7581c846669ece86bb26a0a5c4036c1cff36d2a",
+    "examples": [
+      {
+        "name": "Mark and Sweep",
+        "states": 8,
+        "panels": [
+          "SOURCE CODE",
+          "GC ROOTS",
+          "HEAP",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Forgotten Timer Leak",
+        "states": 8,
+        "panels": [
+          "SOURCE CODE",
+          "GC ROOTS",
+          "HEAP",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Closure Leak",
+        "states": 7,
+        "panels": [
+          "SOURCE CODE",
+          "GC ROOTS",
+          "HEAP",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "WeakRef",
+        "states": 8,
+        "panels": [
+          "SOURCE CODE",
+          "GC ROOTS",
+          "HEAP",
+          "CONSOLE OUTPUT"
+        ]
+      }
+    ]
+  },
+  "generators-iterators": {
+    "url": "https://visualizejs.com/javascript/generators",
+    "sha256": "7aaacea013f3dc179e619fa7016347945953a8c6961196537ab32d9b2d583eb0",
+    "examples": [
+      {
+        "name": "Basic yield",
+        "states": 8,
+        "panels": [
+          "SOURCE CODE",
+          "GENERATOR STATE",
+          "CALL FLOW",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Two-way Data Flow",
+        "states": 7,
+        "panels": [
+          "SOURCE CODE",
+          "GENERATOR STATE",
+          "CALL FLOW",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Iterator Protocol",
+        "states": 11,
+        "panels": [
+          "SOURCE CODE",
+          "GENERATOR STATE",
+          "CALL FLOW",
+          "CONSOLE OUTPUT"
+        ]
+      }
+    ]
+  },
+  "heap-stack": {
+    "url": "https://visualizejs.com/javascript/heap-stack",
+    "sha256": "54b5cd62f770e3c57d1500a9616a4f05e32f2ae228f583ce7ab2c830709edaef",
+    "examples": [
+      {
+        "name": "Primitives on the Stack",
+        "states": 6,
+        "panels": [
+          "SOURCE CODE",
+          "STACK",
+          "HEAP",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Objects on the Heap",
+        "states": 7,
+        "panels": [
+          "SOURCE CODE",
+          "STACK",
+          "HEAP",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Nested Function Calls",
+        "states": 8,
+        "panels": [
+          "SOURCE CODE",
+          "STACK",
+          "HEAP",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Garbage Collection",
+        "states": 8,
+        "panels": [
+          "SOURCE CODE",
+          "STACK",
+          "HEAP",
+          "CONSOLE OUTPUT"
+        ]
+      }
+    ]
+  },
+  "hoisting": {
+    "url": "https://visualizejs.com/javascript/hoisting",
+    "sha256": "01b4b0704ea965be092a577b614e6abce28c25f693f3110605fb94cba116e89c",
+    "examples": [
+      {
+        "name": "var Declarations",
+        "states": 5,
+        "panels": [
+          "SOURCE CODE",
+          "HOW JS SEES IT (AFTER HOISTING)",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Function Declarations",
+        "states": 4,
+        "panels": [
+          "SOURCE CODE",
+          "HOW JS SEES IT (AFTER HOISTING)",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "let/const & TDZ",
+        "states": 5,
+        "panels": [
+          "SOURCE CODE",
+          "HOW JS SEES IT (AFTER HOISTING)",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Function Expressions",
+        "states": 5,
+        "panels": [
+          "SOURCE CODE",
+          "HOW JS SEES IT (AFTER HOISTING)",
+          "CONSOLE OUTPUT"
+        ]
+      }
+    ]
+  },
+  "hooks": {
+    "url": "https://visualizejs.com/react/hooks",
+    "sha256": "0519c002a5eee4e28d7b862877a77873828f5eda67b33cdf0ec38822c8e1b9bb",
+    "examples": [
+      {
+        "name": "Hook Linked List",
+        "states": 11,
+        "panels": [
+          "SOURCE CODE",
+          "HOOKS LIST",
+          "FIBER"
+        ]
+      },
+      {
+        "name": "Order Violation",
+        "states": 9,
+        "panels": [
+          "SOURCE CODE",
+          "HOOKS LIST",
+          "FIBER"
+        ]
+      }
+    ]
+  },
+  "http-request-lifecycle": {
+    "url": "https://visualizejs.com/backend/http-request-lifecycle",
+    "sha256": "a6240bf9582622816c85406efd5df63254507c68d3627441a9d51e1705899da9",
+    "examples": [
+      {
+        "name": "Full round trip",
+        "states": 13,
+        "panels": [
+          "SOURCE CODE",
+          "PIPELINE",
+          "HEADERS",
+          "MESSAGES"
+        ]
+      },
+      {
+        "name": "Inside the server",
+        "states": 11,
+        "panels": [
+          "SOURCE CODE",
+          "MIDDLEWARE CHAIN",
+          "REQUEST OBJECT",
+          "MESSAGES"
+        ]
+      },
+      {
+        "name": "Errors and status codes",
+        "states": 13,
+        "panels": [
+          "SOURCE CODE",
+          "MIDDLEWARE CHAIN",
+          "RESPONSE",
+          "MESSAGES"
+        ]
+      }
+    ]
+  },
+  "jwt-authentication": {
+    "url": "https://visualizejs.com/backend/jwt-authentication",
+    "sha256": "79ad6622bd26255c79e001aa71a8a360eafe90cf09b6118bcce75bd729fd4fb1",
+    "examples": [
+      {
+        "name": "Login and token creation",
+        "states": 11,
+        "panels": [
+          "SOURCE CODE",
+          "TOKEN PARTS",
+          "CLAIMS",
+          "MESSAGES"
+        ]
+      },
+      {
+        "name": "Verifying a protected request",
+        "states": 15,
+        "panels": [
+          "SOURCE CODE",
+          "TOKEN PARTS",
+          "VERIFICATION STEPS",
+          "MESSAGES"
+        ]
+      },
+      {
+        "name": "Refresh tokens and logout",
+        "states": 13,
+        "panels": [
+          "SOURCE CODE",
+          "TOKEN LIFETIMES",
+          "MESSAGES",
+          "SERVER STORE"
+        ]
+      }
+    ]
+  },
+  "memoization": {
+    "url": "https://visualizejs.com/react/memoization",
+    "sha256": "d16daaefffa11f98e5d6d3fb44364779addeb0252ed2c3ce7d0de3e40121ec54",
+    "examples": [
+      {
+        "name": "React.memo",
+        "states": 7,
+        "panels": [
+          "SOURCE CODE",
+          "COMPONENT TREE",
+          "MEMO CACHE",
+          "RENDER DECISIONS"
+        ]
+      },
+      {
+        "name": "useMemo",
+        "states": 6,
+        "panels": [
+          "SOURCE CODE",
+          "COMPONENT TREE",
+          "MEMO CACHE",
+          "RENDER DECISIONS"
+        ]
+      },
+      {
+        "name": "useCallback",
+        "states": 6,
+        "panels": [
+          "SOURCE CODE",
+          "COMPONENT TREE",
+          "MEMO CACHE",
+          "RENDER DECISIONS"
+        ]
+      },
+      {
+        "name": "Cache Invalidation",
+        "states": 7,
+        "panels": [
+          "SOURCE CODE",
+          "COMPONENT TREE",
+          "MEMO CACHE",
+          "RENDER DECISIONS"
+        ]
+      }
+    ]
+  },
+  "modules-imports": {
+    "url": "https://visualizejs.com/javascript/modules-imports",
+    "sha256": "d55b84a256f29917e7c7339492249bde0fd2240099df0abcbe6b493f9b0f22ac",
+    "examples": [
+      {
+        "name": "Named & Default Exports",
+        "states": 8,
+        "panels": [
+          "SOURCE CODE",
+          "MODULE GRAPH",
+          "BINDINGS",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Live Bindings",
+        "states": 8,
+        "panels": [
+          "SOURCE CODE",
+          "MODULE GRAPH",
+          "BINDINGS",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Circular Dependencies",
+        "states": 8,
+        "panels": [
+          "SOURCE CODE",
+          "MODULE GRAPH",
+          "BINDINGS",
+          "CONSOLE OUTPUT"
+        ]
+      }
+    ]
+  },
+  "promises": {
+    "url": "https://visualizejs.com/javascript/promises",
+    "sha256": "4b018adcae94708c9f9bdec7188985ff3c28408e0a823671b98020dcbc29dfe3",
+    "examples": [
+      {
+        "name": "Resolve & Reject",
+        "states": 8,
+        "panels": [
+          "SOURCE CODE",
+          "PROMISE STATE",
+          "MICROTASK QUEUE",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Promise Chaining",
+        "states": 8,
+        "panels": [
+          "SOURCE CODE",
+          "PROMISE STATE",
+          "MICROTASK QUEUE",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "async/await",
+        "states": 8,
+        "panels": [
+          "SOURCE CODE",
+          "PROMISE STATE",
+          "MICROTASK QUEUE",
+          "CONSOLE OUTPUT"
+        ]
+      }
+    ]
+  },
+  "prototypal-inheritance": {
+    "url": "https://visualizejs.com/javascript/prototypal-inheritance",
+    "sha256": "697d4bc2540582e88a0978f4a4a9fe38ef52644df949687c70c2f03635f46592",
+    "examples": [
+      {
+        "name": "Object.create",
+        "states": 7,
+        "panels": [
+          "SOURCE CODE",
+          "PROTOTYPE CHAIN",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "new, instanceof & Inheritance",
+        "states": 11,
+        "panels": [
+          "SOURCE CODE",
+          "PROTOTYPE CHAIN",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Property Shadowing",
+        "states": 8,
+        "panels": [
+          "SOURCE CODE",
+          "PROTOTYPE CHAIN",
+          "CONSOLE OUTPUT"
+        ]
+      }
+    ]
+  },
+  "rate-limiting": {
+    "url": "https://visualizejs.com/backend/rate-limiting",
+    "sha256": "9d7c9e51ecc83d46979ab1c1fa54e8a59004dcad0033e52df571b9e3168c35c0",
+    "examples": [
+      {
+        "name": "Token bucket",
+        "states": 12,
+        "panels": [
+          "SOURCE CODE",
+          "BUCKET",
+          "TIMELINE",
+          "REQUEST LOG"
+        ]
+      },
+      {
+        "name": "Fixed window",
+        "states": 11,
+        "panels": [
+          "SOURCE CODE",
+          "WINDOW COUNTER",
+          "TIMELINE",
+          "REQUEST LOG"
+        ]
+      },
+      {
+        "name": "Sliding window log",
+        "states": 12,
+        "panels": [
+          "SOURCE CODE",
+          "TIMESTAMP LOG",
+          "TIMELINE",
+          "REQUEST LOG"
+        ]
+      }
+    ]
+  },
+  "reconciliation": {
+    "url": "https://visualizejs.com/react/reconciliation",
+    "sha256": "7e89ed9d298bd18d60e66c2fc3c897fc5c6b39326e647a91f84ae73e4d8014aa",
+    "examples": [
+      {
+        "name": "Same Element Type",
+        "states": 7,
+        "panels": [
+          "SOURCE CODE",
+          "PREVIOUS TREE",
+          "NEW TREE",
+          "DOM OPERATIONS"
+        ]
+      },
+      {
+        "name": "Different Element Type",
+        "states": 6,
+        "panels": [
+          "SOURCE CODE",
+          "PREVIOUS TREE",
+          "NEW TREE",
+          "DOM OPERATIONS"
+        ]
+      },
+      {
+        "name": "Key-Based List",
+        "states": 7,
+        "panels": [
+          "SOURCE CODE",
+          "PREVIOUS TREE",
+          "NEW TREE",
+          "DOM OPERATIONS"
+        ]
+      }
+    ]
+  },
+  "reference-value": {
+    "url": "https://visualizejs.com/javascript/reference-value",
+    "sha256": "575a94b1edf9033b3e401ebeb399cb16954c7c75ed51b008e83b035924219072",
+    "examples": [
+      {
+        "name": "Primitives (By Value)",
+        "states": 6,
+        "panels": [
+          "SOURCE CODE",
+          "MEMORY",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Object Reference",
+        "states": 7,
+        "panels": [
+          "SOURCE CODE",
+          "MEMORY",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Shallow Copy",
+        "states": 9,
+        "panels": [
+          "SOURCE CODE",
+          "MEMORY",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Deep Copy",
+        "states": 6,
+        "panels": [
+          "SOURCE CODE",
+          "MEMORY",
+          "CONSOLE OUTPUT"
+        ]
+      }
+    ]
+  },
+  "render": {
+    "url": "https://visualizejs.com/react/render-cycle",
+    "sha256": "fce31dee499ac128fd8cef1fb972eb1d3ec0217a3bb00fe07196913c1534f3aa",
+    "examples": [
+      {
+        "name": "Render vs Commit",
+        "states": 10,
+        "panels": [
+          "SOURCE CODE",
+          "PHASE",
+          "CURRENT TREE",
+          "WIP TREE",
+          "EFFECTS"
+        ]
+      },
+      {
+        "name": "Batched Updates",
+        "states": 9,
+        "panels": [
+          "SOURCE CODE",
+          "PHASE",
+          "CURRENT TREE",
+          "WIP TREE",
+          "EFFECTS"
+        ]
+      }
+    ]
+  },
+  "scope": {
+    "url": "https://visualizejs.com/javascript/scope-chain",
+    "sha256": "32584e53f0685b0777e09fe2c559abb6e1c02fd9795209cf38ad41b3d4ef296b",
+    "examples": [
+      {
+        "name": "Identifier Lookup",
+        "states": 13,
+        "panels": [
+          "SOURCE CODE",
+          "SCOPE CHAIN",
+          "IDENTIFIER LOOKUP",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Block vs Function Scope",
+        "states": 10,
+        "panels": [
+          "SOURCE CODE",
+          "SCOPE CHAIN",
+          "IDENTIFIER LOOKUP",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Lexical Scope",
+        "states": 8,
+        "panels": [
+          "SOURCE CODE",
+          "SCOPE CHAIN",
+          "IDENTIFIER LOOKUP",
+          "CONSOLE OUTPUT"
+        ]
+      }
+    ]
+  },
+  "server-components": {
+    "url": "https://visualizejs.com/react/server-components",
+    "sha256": "b155da566333ab1cd548264268158b39d1c04e28b1b4a9140218974619564b4d",
+    "examples": [
+      {
+        "name": "Server vs Client",
+        "states": 8,
+        "panels": [
+          "SOURCE CODE",
+          "RENDER PHASE",
+          "COMPONENT TREE",
+          "RSC PAYLOAD"
+        ]
+      },
+      {
+        "name": "RSC Payload",
+        "states": 6,
+        "panels": [
+          "SOURCE CODE",
+          "RENDER PHASE",
+          "COMPONENT TREE",
+          "RSC PAYLOAD"
+        ]
+      },
+      {
+        "name": "Composition Pattern",
+        "states": 6,
+        "panels": [
+          "SOURCE CODE",
+          "RENDER PHASE",
+          "COMPONENT TREE",
+          "RSC PAYLOAD"
+        ]
+      }
+    ]
+  },
+  "spread-rest": {
+    "url": "https://visualizejs.com/javascript/spread-rest",
+    "sha256": "f9b651b7516d80a07f1df78b4bcb2cf5151729831c9712fdc90d9d1da7e50d4c",
+    "examples": [
+      {
+        "name": "Array Spread",
+        "states": 9,
+        "panels": [
+          "SOURCE CODE",
+          "VARIABLES",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Object Spread",
+        "states": 8,
+        "panels": [
+          "SOURCE CODE",
+          "VARIABLES",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Rest Parameters",
+        "states": 9,
+        "panels": [
+          "SOURCE CODE",
+          "VARIABLES",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Rest in Destructuring",
+        "states": 9,
+        "panels": [
+          "SOURCE CODE",
+          "VARIABLES",
+          "CONSOLE OUTPUT"
+        ]
+      }
+    ]
+  },
+  "state": {
+    "url": "https://visualizejs.com/react/state-batching",
+    "sha256": "af6f89c1c584158ac9138da06e151db480977ebcdd762ccb2919cab22e335c96",
+    "examples": [
+      {
+        "name": "Three setState calls, one render",
+        "states": 11,
+        "panels": [
+          "SOURCE CODE",
+          "UPDATE QUEUE",
+          "HOOK STATE",
+          "RENDER LOG",
+          "EVENT LOOP",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Updater functions",
+        "states": 14,
+        "panels": [
+          "SOURCE CODE",
+          "UPDATE QUEUE",
+          "HOOK STATE",
+          "RENDER LOG",
+          "EVENT LOOP",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Automatic batching outside events",
+        "states": 15,
+        "panels": [
+          "SOURCE CODE",
+          "UPDATE QUEUE",
+          "HOOK STATE",
+          "RENDER LOG",
+          "EVENT LOOP",
+          "CONSOLE OUTPUT"
+        ]
+      }
+    ]
+  },
+  "suspense": {
+    "url": "https://visualizejs.com/react/suspense",
+    "sha256": "6638efa9bcccc38d62b4627d15ea31d1a6201c6827ecfe78b914eb7d7121adcd",
+    "examples": [
+      {
+        "name": "Single Boundary",
+        "states": 7,
+        "panels": [
+          "SOURCE CODE",
+          "COMPONENT TREE",
+          "BOUNDARY STATUS"
+        ]
+      },
+      {
+        "name": "Nested Boundaries",
+        "states": 7,
+        "panels": [
+          "SOURCE CODE",
+          "COMPONENT TREE",
+          "BOUNDARY STATUS"
+        ]
+      },
+      {
+        "name": "Waterfall vs Parallel",
+        "states": 7,
+        "panels": [
+          "SOURCE CODE",
+          "COMPONENT TREE",
+          "BOUNDARY STATUS"
+        ]
+      }
+    ]
+  },
+  "this-keyword": {
+    "url": "https://visualizejs.com/javascript/this-keyword",
+    "sha256": "02cd13ab238c4b9389fee2d0db755a074087efd2001e51a6b74adb6479701681",
+    "examples": [
+      {
+        "name": "Implicit vs Default",
+        "states": 8,
+        "panels": [
+          "SOURCE CODE",
+          "THIS BINDING",
+          "OBJECTS IN MEMORY",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Explicit Binding",
+        "states": 8,
+        "panels": [
+          "SOURCE CODE",
+          "THIS BINDING",
+          "OBJECTS IN MEMORY",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "new Binding",
+        "states": 8,
+        "panels": [
+          "SOURCE CODE",
+          "THIS BINDING",
+          "OBJECTS IN MEMORY",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Arrow Functions",
+        "states": 8,
+        "panels": [
+          "SOURCE CODE",
+          "THIS BINDING",
+          "OBJECTS IN MEMORY",
+          "CONSOLE OUTPUT"
+        ]
+      }
+    ]
+  },
+  "type-coercion": {
+    "url": "https://visualizejs.com/javascript/type-coercion",
+    "sha256": "c810869e3e652932a21b8515f52a24947741c6a783a49ac93e7fc6cc61a95d7f",
+    "examples": [
+      {
+        "name": "Loose vs Strict",
+        "states": 7,
+        "panels": [
+          "SOURCE CODE",
+          "COERCION STEPS",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Truthy & Falsy",
+        "states": 9,
+        "panels": [
+          "SOURCE CODE",
+          "COERCION STEPS",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "null & undefined",
+        "states": 7,
+        "panels": [
+          "SOURCE CODE",
+          "COERCION STEPS",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "NaN Quirks",
+        "states": 7,
+        "panels": [
+          "SOURCE CODE",
+          "COERCION STEPS",
+          "CONSOLE OUTPUT"
+        ]
+      }
+    ]
+  },
+  "virtual-dom": {
+    "url": "https://visualizejs.com/react/virtual-dom",
+    "sha256": "7e7c23294ce6c69994d026ab0f1dffa46766101fc96fb86aec8f3ab3bb276704",
+    "examples": [
+      {
+        "name": "Simple Element",
+        "states": 7,
+        "panels": [
+          "SOURCE CODE",
+          "VDOM TREE",
+          "CREATEELEMENT CALLS",
+          "DOM OUTPUT"
+        ]
+      },
+      {
+        "name": "Nested Components",
+        "states": 7,
+        "panels": [
+          "SOURCE CODE",
+          "VDOM TREE",
+          "CREATEELEMENT CALLS",
+          "DOM OUTPUT"
+        ]
+      },
+      {
+        "name": "Dynamic Props",
+        "states": 7,
+        "panels": [
+          "SOURCE CODE",
+          "VDOM TREE",
+          "CREATEELEMENT CALLS",
+          "DOM OUTPUT"
+        ]
+      }
+    ]
+  }
+}

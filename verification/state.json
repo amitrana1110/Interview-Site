@@ -1,0 +1,8 @@
+{
+  "id": "state",
+  "examples": 3,
+  "states": 40,
+  "panelsAndValues": true,
+  "activeStyles": true,
+  "controls": true
+}

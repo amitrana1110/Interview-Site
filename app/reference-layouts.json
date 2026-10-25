@@ -1,0 +1,1338 @@
+{
+  "hoisting": {
+    "url": "https://visualizejs.com/javascript/hoisting",
+    "topic": "javascript",
+    "examples": [
+      {
+        "name": "var Declarations",
+        "tag": "var",
+        "panels": [
+          "SOURCE CODE",
+          "HOW JS SEES IT (AFTER HOISTING)",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Function Declarations",
+        "tag": "function",
+        "panels": [
+          "SOURCE CODE",
+          "HOW JS SEES IT (AFTER HOISTING)",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "let/const & TDZ",
+        "tag": "let/const",
+        "panels": [
+          "SOURCE CODE",
+          "HOW JS SEES IT (AFTER HOISTING)",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Function Expressions",
+        "tag": "func expr",
+        "panels": [
+          "SOURCE CODE",
+          "HOW JS SEES IT (AFTER HOISTING)",
+          "CONSOLE OUTPUT"
+        ]
+      }
+    ]
+  },
+  "event-loop": {
+    "url": "https://visualizejs.com/javascript/event-loop",
+    "topic": "javascript",
+    "examples": [
+      {
+        "name": "Default",
+        "tag": "",
+        "panels": [
+          "SOURCE CODE",
+          "CALL STACK",
+          "WEB APIS",
+          "MICROTASK QUEUE",
+          "TASK QUEUE",
+          "EVENT LOOP",
+          "CONSOLE OUTPUT"
+        ]
+      }
+    ]
+  },
+  "execution-context": {
+    "url": "https://visualizejs.com/javascript/execution-context",
+    "topic": "javascript",
+    "examples": [
+      {
+        "name": "Default",
+        "tag": "",
+        "panels": [
+          "CURRENT PHASE",
+          "SOURCE CODE",
+          "EXECUTION CONTEXT STACK",
+          "ACTIVITY",
+          "CONSOLE OUTPUT"
+        ]
+      }
+    ]
+  },
+  "closure": {
+    "url": "https://visualizejs.com/javascript/closures",
+    "topic": "javascript",
+    "examples": [
+      {
+        "name": "Default",
+        "tag": "",
+        "panels": [
+          "SOURCE CODE",
+          "CALL STACK",
+          "SCOPE CHAIN",
+          "CONSOLE OUTPUT"
+        ]
+      }
+    ]
+  },
+  "promises": {
+    "url": "https://visualizejs.com/javascript/promises",
+    "topic": "javascript",
+    "examples": [
+      {
+        "name": "Resolve & Reject",
+        "tag": "basic",
+        "panels": [
+          "SOURCE CODE",
+          "PROMISE STATE",
+          "MICROTASK QUEUE",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Promise Chaining",
+        "tag": "chaining",
+        "panels": [
+          "SOURCE CODE",
+          "PROMISE STATE",
+          "MICROTASK QUEUE",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "async/await",
+        "tag": "async/await",
+        "panels": [
+          "SOURCE CODE",
+          "PROMISE STATE",
+          "MICROTASK QUEUE",
+          "CONSOLE OUTPUT"
+        ]
+      }
+    ]
+  },
+  "this-keyword": {
+    "url": "https://visualizejs.com/javascript/this-keyword",
+    "topic": "javascript",
+    "examples": [
+      {
+        "name": "Implicit vs Default",
+        "tag": "implicit",
+        "panels": [
+          "SOURCE CODE",
+          "THIS BINDING",
+          "OBJECTS IN MEMORY",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Explicit Binding",
+        "tag": "call/apply/bind",
+        "panels": [
+          "SOURCE CODE",
+          "THIS BINDING",
+          "OBJECTS IN MEMORY",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "new Binding",
+        "tag": "new",
+        "panels": [
+          "SOURCE CODE",
+          "THIS BINDING",
+          "OBJECTS IN MEMORY",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Arrow Functions",
+        "tag": "arrow fn",
+        "panels": [
+          "SOURCE CODE",
+          "THIS BINDING",
+          "OBJECTS IN MEMORY",
+          "CONSOLE OUTPUT"
+        ]
+      }
+    ]
+  },
+  "scope": {
+    "url": "https://visualizejs.com/javascript/scope-chain",
+    "topic": "javascript",
+    "examples": [
+      {
+        "name": "Identifier Lookup",
+        "tag": "lookup",
+        "panels": [
+          "SOURCE CODE",
+          "SCOPE CHAIN",
+          "IDENTIFIER LOOKUP",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Block vs Function Scope",
+        "tag": "block scope",
+        "panels": [
+          "SOURCE CODE",
+          "SCOPE CHAIN",
+          "IDENTIFIER LOOKUP",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Lexical Scope",
+        "tag": "lexical",
+        "panels": [
+          "SOURCE CODE",
+          "SCOPE CHAIN",
+          "IDENTIFIER LOOKUP",
+          "CONSOLE OUTPUT"
+        ]
+      }
+    ]
+  },
+  "type-coercion": {
+    "url": "https://visualizejs.com/javascript/type-coercion",
+    "topic": "javascript",
+    "examples": [
+      {
+        "name": "Loose vs Strict",
+        "tag": "== vs ===",
+        "panels": [
+          "SOURCE CODE",
+          "COERCION STEPS",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Truthy & Falsy",
+        "tag": "truthy/falsy",
+        "panels": [
+          "SOURCE CODE",
+          "COERCION STEPS",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "null & undefined",
+        "tag": "null/undefined",
+        "panels": [
+          "SOURCE CODE",
+          "COERCION STEPS",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "NaN Quirks",
+        "tag": "NaN",
+        "panels": [
+          "SOURCE CODE",
+          "COERCION STEPS",
+          "CONSOLE OUTPUT"
+        ]
+      }
+    ]
+  },
+  "destructuring": {
+    "url": "https://visualizejs.com/javascript/destructuring",
+    "topic": "javascript",
+    "examples": [
+      {
+        "name": "Array Destructuring",
+        "tag": "array",
+        "panels": [
+          "SOURCE CODE",
+          "VARIABLES",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Object Destructuring",
+        "tag": "object",
+        "panels": [
+          "SOURCE CODE",
+          "VARIABLES",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Defaults & Nested",
+        "tag": "nested",
+        "panels": [
+          "SOURCE CODE",
+          "VARIABLES",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Function Parameters",
+        "tag": "params",
+        "panels": [
+          "SOURCE CODE",
+          "VARIABLES",
+          "CONSOLE OUTPUT"
+        ]
+      }
+    ]
+  },
+  "spread-rest": {
+    "url": "https://visualizejs.com/javascript/spread-rest",
+    "topic": "javascript",
+    "examples": [
+      {
+        "name": "Array Spread",
+        "tag": "array",
+        "panels": [
+          "SOURCE CODE",
+          "VARIABLES",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Object Spread",
+        "tag": "object",
+        "panels": [
+          "SOURCE CODE",
+          "VARIABLES",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Rest Parameters",
+        "tag": "rest params",
+        "panels": [
+          "SOURCE CODE",
+          "VARIABLES",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Rest in Destructuring",
+        "tag": "rest destr.",
+        "panels": [
+          "SOURCE CODE",
+          "VARIABLES",
+          "CONSOLE OUTPUT"
+        ]
+      }
+    ]
+  },
+  "prototypal-inheritance": {
+    "url": "https://visualizejs.com/javascript/prototypal-inheritance",
+    "topic": "javascript",
+    "examples": [
+      {
+        "name": "Object.create",
+        "tag": "Object.create",
+        "panels": [
+          "SOURCE CODE",
+          "PROTOTYPE CHAIN",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "new, instanceof & Inheritance",
+        "tag": "constructor",
+        "panels": [
+          "SOURCE CODE",
+          "PROTOTYPE CHAIN",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Property Shadowing",
+        "tag": "shadowing",
+        "panels": [
+          "SOURCE CODE",
+          "PROTOTYPE CHAIN",
+          "CONSOLE OUTPUT"
+        ]
+      }
+    ]
+  },
+  "reference-value": {
+    "url": "https://visualizejs.com/javascript/reference-value",
+    "topic": "javascript",
+    "examples": [
+      {
+        "name": "Primitives (By Value)",
+        "tag": "by value",
+        "panels": [
+          "SOURCE CODE",
+          "MEMORY",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Object Reference",
+        "tag": "by reference",
+        "panels": [
+          "SOURCE CODE",
+          "MEMORY",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Shallow Copy",
+        "tag": "shallow copy",
+        "panels": [
+          "SOURCE CODE",
+          "MEMORY",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Deep Copy",
+        "tag": "deep copy",
+        "panels": [
+          "SOURCE CODE",
+          "MEMORY",
+          "CONSOLE OUTPUT"
+        ]
+      }
+    ]
+  },
+  "heap-stack": {
+    "url": "https://visualizejs.com/javascript/heap-stack",
+    "topic": "javascript",
+    "examples": [
+      {
+        "name": "Primitives on the Stack",
+        "tag": "stack",
+        "panels": [
+          "SOURCE CODE",
+          "STACK",
+          "HEAP",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Objects on the Heap",
+        "tag": "heap",
+        "panels": [
+          "SOURCE CODE",
+          "STACK",
+          "HEAP",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Nested Function Calls",
+        "tag": "call stack",
+        "panels": [
+          "SOURCE CODE",
+          "STACK",
+          "HEAP",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Garbage Collection",
+        "tag": "GC",
+        "panels": [
+          "SOURCE CODE",
+          "STACK",
+          "HEAP",
+          "CONSOLE OUTPUT"
+        ]
+      }
+    ]
+  },
+  "garbage-collection": {
+    "url": "https://visualizejs.com/javascript/garbage-collection",
+    "topic": "javascript",
+    "examples": [
+      {
+        "name": "Mark and Sweep",
+        "tag": "algorithm",
+        "panels": [
+          "SOURCE CODE",
+          "GC ROOTS",
+          "HEAP",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Forgotten Timer Leak",
+        "tag": "leak",
+        "panels": [
+          "SOURCE CODE",
+          "GC ROOTS",
+          "HEAP",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Closure Leak",
+        "tag": "leak",
+        "panels": [
+          "SOURCE CODE",
+          "GC ROOTS",
+          "HEAP",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "WeakRef",
+        "tag": "weak",
+        "panels": [
+          "SOURCE CODE",
+          "GC ROOTS",
+          "HEAP",
+          "CONSOLE OUTPUT"
+        ]
+      }
+    ]
+  },
+  "generators-iterators": {
+    "url": "https://visualizejs.com/javascript/generators",
+    "topic": "javascript",
+    "examples": [
+      {
+        "name": "Basic yield",
+        "tag": "basic",
+        "panels": [
+          "SOURCE CODE",
+          "GENERATOR STATE",
+          "CALL FLOW",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Two-way Data Flow",
+        "tag": "data flow",
+        "panels": [
+          "SOURCE CODE",
+          "GENERATOR STATE",
+          "CALL FLOW",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Iterator Protocol",
+        "tag": "iterator",
+        "panels": [
+          "SOURCE CODE",
+          "GENERATOR STATE",
+          "CALL FLOW",
+          "CONSOLE OUTPUT"
+        ]
+      }
+    ]
+  },
+  "delegation": {
+    "url": "https://visualizejs.com/javascript/event-delegation",
+    "topic": "javascript",
+    "examples": [
+      {
+        "name": "Capture & Bubble",
+        "tag": "bubbling",
+        "panels": [
+          "SOURCE CODE",
+          "DOM TREE",
+          "EVENT PATH",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "stopPropagation",
+        "tag": "stopPropagation",
+        "panels": [
+          "SOURCE CODE",
+          "DOM TREE",
+          "EVENT PATH",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Event Delegation",
+        "tag": "delegation",
+        "panels": [
+          "SOURCE CODE",
+          "DOM TREE",
+          "EVENT PATH",
+          "CONSOLE OUTPUT"
+        ]
+      }
+    ]
+  },
+  "modules-imports": {
+    "url": "https://visualizejs.com/javascript/modules-imports",
+    "topic": "javascript",
+    "examples": [
+      {
+        "name": "Named & Default Exports",
+        "tag": "named/default",
+        "panels": [
+          "SOURCE CODE",
+          "MODULE GRAPH",
+          "BINDINGS",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Live Bindings",
+        "tag": "live bindings",
+        "panels": [
+          "SOURCE CODE",
+          "MODULE GRAPH",
+          "BINDINGS",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Circular Dependencies",
+        "tag": "circular",
+        "panels": [
+          "SOURCE CODE",
+          "MODULE GRAPH",
+          "BINDINGS",
+          "CONSOLE OUTPUT"
+        ]
+      }
+    ]
+  },
+  "async-await": {
+    "url": "https://visualizejs.com/javascript/async-await",
+    "topic": "javascript",
+    "examples": [
+      {
+        "name": "await yields to the caller",
+        "tag": "execution order",
+        "panels": [
+          "SOURCE CODE",
+          "CALL STACK",
+          "MICROTASK QUEUE",
+          "ASYNC FUNCTION STATE",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Sequential vs Promise.all",
+        "tag": "sequential vs parallel",
+        "panels": [
+          "SOURCE CODE",
+          "CALL STACK",
+          "TIMERS",
+          "MICROTASK QUEUE",
+          "TIMELINE",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Errors and try/catch",
+        "tag": "errors",
+        "panels": [
+          "SOURCE CODE",
+          "CALL STACK",
+          "MICROTASK QUEUE",
+          "ASYNC FUNCTION STATE",
+          "CONSOLE OUTPUT"
+        ]
+      }
+    ]
+  },
+  "debounce": {
+    "url": "https://visualizejs.com/javascript/debounce-throttle",
+    "topic": "javascript",
+    "examples": [
+      {
+        "name": "Debounce a search input",
+        "tag": "debounce",
+        "panels": [
+          "SOURCE CODE",
+          "TIMELINE",
+          "TIMER",
+          "CLOSURE STATE",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Throttle a scroll handler",
+        "tag": "throttle",
+        "panels": [
+          "SOURCE CODE",
+          "TIMELINE",
+          "TIMER",
+          "THROTTLE STATE",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Choosing between them",
+        "tag": "compare",
+        "panels": [
+          "SOURCE CODE",
+          "TIMELINE",
+          "COMPARISON",
+          "CONSOLE OUTPUT"
+        ]
+      }
+    ]
+  },
+  "virtual-dom": {
+    "url": "https://visualizejs.com/react/virtual-dom",
+    "topic": "react",
+    "examples": [
+      {
+        "name": "Simple Element",
+        "tag": "element",
+        "panels": [
+          "SOURCE CODE",
+          "VDOM TREE",
+          "CREATEELEMENT CALLS",
+          "DOM OUTPUT"
+        ]
+      },
+      {
+        "name": "Nested Components",
+        "tag": "component",
+        "panels": [
+          "SOURCE CODE",
+          "VDOM TREE",
+          "CREATEELEMENT CALLS",
+          "DOM OUTPUT"
+        ]
+      },
+      {
+        "name": "Dynamic Props",
+        "tag": "dynamic",
+        "panels": [
+          "SOURCE CODE",
+          "VDOM TREE",
+          "CREATEELEMENT CALLS",
+          "DOM OUTPUT"
+        ]
+      }
+    ]
+  },
+  "reconciliation": {
+    "url": "https://visualizejs.com/react/reconciliation",
+    "topic": "react",
+    "examples": [
+      {
+        "name": "Same Element Type",
+        "tag": "same type",
+        "panels": [
+          "SOURCE CODE",
+          "PREVIOUS TREE",
+          "NEW TREE",
+          "DOM OPERATIONS"
+        ]
+      },
+      {
+        "name": "Different Element Type",
+        "tag": "different type",
+        "panels": [
+          "SOURCE CODE",
+          "PREVIOUS TREE",
+          "NEW TREE",
+          "DOM OPERATIONS"
+        ]
+      },
+      {
+        "name": "Key-Based List",
+        "tag": "keyed list",
+        "panels": [
+          "SOURCE CODE",
+          "PREVIOUS TREE",
+          "NEW TREE",
+          "DOM OPERATIONS"
+        ]
+      }
+    ]
+  },
+  "context": {
+    "url": "https://visualizejs.com/react/context-propagation",
+    "topic": "react",
+    "examples": [
+      {
+        "name": "Basic Provider",
+        "tag": "basic",
+        "panels": [
+          "SOURCE CODE",
+          "COMPONENT TREE",
+          "CONTEXT REGISTRY",
+          "CONSUMER STATE"
+        ]
+      },
+      {
+        "name": "Nested Providers",
+        "tag": "nested",
+        "panels": [
+          "SOURCE CODE",
+          "COMPONENT TREE",
+          "CONTEXT REGISTRY",
+          "CONSUMER STATE"
+        ]
+      },
+      {
+        "name": "Consumer Re-renders",
+        "tag": "re-render",
+        "panels": [
+          "SOURCE CODE",
+          "COMPONENT TREE",
+          "CONTEXT REGISTRY",
+          "CONSUMER STATE"
+        ]
+      }
+    ]
+  },
+  "fiber-tree": {
+    "url": "https://visualizejs.com/react/fiber-tree",
+    "topic": "react",
+    "examples": [
+      {
+        "name": "Work Loop Traversal",
+        "tag": "work loop",
+        "panels": [
+          "SOURCE CODE",
+          "FIBER TREE",
+          "WORK LOOP",
+          "FIBER DETAIL"
+        ]
+      },
+      {
+        "name": "Unit of Work",
+        "tag": "unit of work",
+        "panels": [
+          "SOURCE CODE",
+          "FIBER TREE",
+          "WORK LOOP",
+          "FIBER DETAIL"
+        ]
+      }
+    ]
+  },
+  "hooks": {
+    "url": "https://visualizejs.com/react/hooks",
+    "topic": "react",
+    "examples": [
+      {
+        "name": "Hook Linked List",
+        "tag": "linked list",
+        "panels": [
+          "SOURCE CODE",
+          "HOOKS LIST",
+          "FIBER"
+        ]
+      },
+      {
+        "name": "Order Violation",
+        "tag": "order violation",
+        "panels": [
+          "SOURCE CODE",
+          "HOOKS LIST",
+          "FIBER"
+        ]
+      }
+    ]
+  },
+  "render": {
+    "url": "https://visualizejs.com/react/render-cycle",
+    "topic": "react",
+    "examples": [
+      {
+        "name": "Render vs Commit",
+        "tag": "two phases",
+        "panels": [
+          "SOURCE CODE",
+          "PHASE",
+          "CURRENT TREE",
+          "WIP TREE",
+          "EFFECTS"
+        ]
+      },
+      {
+        "name": "Batched Updates",
+        "tag": "batched updates",
+        "panels": [
+          "SOURCE CODE",
+          "PHASE",
+          "CURRENT TREE",
+          "WIP TREE",
+          "EFFECTS"
+        ]
+      }
+    ]
+  },
+  "memoization": {
+    "url": "https://visualizejs.com/react/memoization",
+    "topic": "react",
+    "examples": [
+      {
+        "name": "React.memo",
+        "tag": "React.memo",
+        "panels": [
+          "SOURCE CODE",
+          "COMPONENT TREE",
+          "MEMO CACHE",
+          "RENDER DECISIONS"
+        ]
+      },
+      {
+        "name": "useMemo",
+        "tag": "useMemo",
+        "panels": [
+          "SOURCE CODE",
+          "COMPONENT TREE",
+          "MEMO CACHE",
+          "RENDER DECISIONS"
+        ]
+      },
+      {
+        "name": "useCallback",
+        "tag": "useCallback",
+        "panels": [
+          "SOURCE CODE",
+          "COMPONENT TREE",
+          "MEMO CACHE",
+          "RENDER DECISIONS"
+        ]
+      },
+      {
+        "name": "Cache Invalidation",
+        "tag": "invalidation",
+        "panels": [
+          "SOURCE CODE",
+          "COMPONENT TREE",
+          "MEMO CACHE",
+          "RENDER DECISIONS"
+        ]
+      }
+    ]
+  },
+  "suspense": {
+    "url": "https://visualizejs.com/react/suspense",
+    "topic": "react",
+    "examples": [
+      {
+        "name": "Single Boundary",
+        "tag": "single",
+        "panels": [
+          "SOURCE CODE",
+          "COMPONENT TREE",
+          "BOUNDARY STATUS"
+        ]
+      },
+      {
+        "name": "Nested Boundaries",
+        "tag": "nested",
+        "panels": [
+          "SOURCE CODE",
+          "COMPONENT TREE",
+          "BOUNDARY STATUS"
+        ]
+      },
+      {
+        "name": "Waterfall vs Parallel",
+        "tag": "parallel",
+        "panels": [
+          "SOURCE CODE",
+          "COMPONENT TREE",
+          "BOUNDARY STATUS"
+        ]
+      }
+    ]
+  },
+  "server-components": {
+    "url": "https://visualizejs.com/react/server-components",
+    "topic": "react",
+    "examples": [
+      {
+        "name": "Server vs Client",
+        "tag": "basic",
+        "panels": [
+          "SOURCE CODE",
+          "RENDER PHASE",
+          "COMPONENT TREE",
+          "RSC PAYLOAD"
+        ]
+      },
+      {
+        "name": "RSC Payload",
+        "tag": "payload",
+        "panels": [
+          "SOURCE CODE",
+          "RENDER PHASE",
+          "COMPONENT TREE",
+          "RSC PAYLOAD"
+        ]
+      },
+      {
+        "name": "Composition Pattern",
+        "tag": "composition",
+        "panels": [
+          "SOURCE CODE",
+          "RENDER PHASE",
+          "COMPONENT TREE",
+          "RSC PAYLOAD"
+        ]
+      }
+    ]
+  },
+  "error-boundaries": {
+    "url": "https://visualizejs.com/react/error-boundaries",
+    "topic": "react",
+    "examples": [
+      {
+        "name": "Basic Error Boundary",
+        "tag": "basic",
+        "panels": [
+          "SOURCE CODE",
+          "COMPONENT TREE",
+          "ERROR STATE"
+        ]
+      },
+      {
+        "name": "Nested Boundaries",
+        "tag": "nested",
+        "panels": [
+          "SOURCE CODE",
+          "COMPONENT TREE",
+          "ERROR STATE"
+        ]
+      },
+      {
+        "name": "Recovery Pattern",
+        "tag": "recovery",
+        "panels": [
+          "SOURCE CODE",
+          "COMPONENT TREE",
+          "ERROR STATE"
+        ]
+      }
+    ]
+  },
+  "effects": {
+    "url": "https://visualizejs.com/react/use-effect-lifecycle",
+    "topic": "react",
+    "examples": [
+      {
+        "name": "Mount & Unmount",
+        "tag": "mount/unmount",
+        "panels": [
+          "SOURCE CODE",
+          "COMPONENT TREE",
+          "EFFECT TIMELINE",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Dependency Array",
+        "tag": "deps array",
+        "panels": [
+          "SOURCE CODE",
+          "COMPONENT TREE",
+          "EFFECT TIMELINE",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Cleanup Timing",
+        "tag": "cleanup",
+        "panels": [
+          "SOURCE CODE",
+          "COMPONENT TREE",
+          "EFFECT TIMELINE",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Common Patterns",
+        "tag": "patterns",
+        "panels": [
+          "SOURCE CODE",
+          "COMPONENT TREE",
+          "EFFECT TIMELINE",
+          "CONSOLE OUTPUT"
+        ]
+      }
+    ]
+  },
+  "state": {
+    "url": "https://visualizejs.com/react/state-batching",
+    "topic": "react",
+    "examples": [
+      {
+        "name": "Three setState calls, one render",
+        "tag": "one render",
+        "panels": [
+          "SOURCE CODE",
+          "UPDATE QUEUE",
+          "HOOK STATE",
+          "RENDER LOG",
+          "EVENT LOOP",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Updater functions",
+        "tag": "updater queue",
+        "panels": [
+          "SOURCE CODE",
+          "UPDATE QUEUE",
+          "HOOK STATE",
+          "RENDER LOG",
+          "EVENT LOOP",
+          "CONSOLE OUTPUT"
+        ]
+      },
+      {
+        "name": "Automatic batching outside events",
+        "tag": "automatic batching",
+        "panels": [
+          "SOURCE CODE",
+          "UPDATE QUEUE",
+          "HOOK STATE",
+          "RENDER LOG",
+          "EVENT LOOP",
+          "CONSOLE OUTPUT"
+        ]
+      }
+    ]
+  },
+  "concurrent-rendering": {
+    "url": "https://visualizejs.com/react/concurrent-rendering",
+    "topic": "react",
+    "examples": [
+      {
+        "name": "Blocking render",
+        "tag": "blocking render",
+        "panels": [
+          "SOURCE CODE",
+          "LANES",
+          "WORK LOOP",
+          "FRAME TIMELINE",
+          "DOM"
+        ]
+      },
+      {
+        "name": "startTransition",
+        "tag": "startTransition",
+        "panels": [
+          "SOURCE CODE",
+          "LANES",
+          "WORK LOOP",
+          "FRAME TIMELINE",
+          "DOM"
+        ]
+      },
+      {
+        "name": "useDeferredValue and Suspense",
+        "tag": "useDeferredValue",
+        "panels": [
+          "SOURCE CODE",
+          "LANES",
+          "WORK LOOP",
+          "FRAME TIMELINE",
+          "DOM"
+        ]
+      }
+    ]
+  },
+  "http-request-lifecycle": {
+    "url": "https://visualizejs.com/backend/http-request-lifecycle",
+    "topic": "backend",
+    "examples": [
+      {
+        "name": "Full round trip",
+        "tag": "round trip",
+        "panels": [
+          "SOURCE CODE",
+          "PIPELINE",
+          "HEADERS",
+          "MESSAGES"
+        ]
+      },
+      {
+        "name": "Inside the server",
+        "tag": "inside the server",
+        "panels": [
+          "SOURCE CODE",
+          "MIDDLEWARE CHAIN",
+          "REQUEST OBJECT",
+          "MESSAGES"
+        ]
+      },
+      {
+        "name": "Errors and status codes",
+        "tag": "status codes",
+        "panels": [
+          "SOURCE CODE",
+          "MIDDLEWARE CHAIN",
+          "RESPONSE",
+          "MESSAGES"
+        ]
+      }
+    ]
+  },
+  "database-indexing": {
+    "url": "https://visualizejs.com/backend/database-indexing",
+    "topic": "backend",
+    "examples": [
+      {
+        "name": "Full scan vs index",
+        "tag": "scan vs index",
+        "panels": [
+          "SOURCE CODE",
+          "TABLE PAGES",
+          "QUERY PLAN",
+          "B-TREE: USERS_EMAIL_IDX",
+          "INDEX DEFINITION"
+        ]
+      },
+      {
+        "name": "Composite index and column order",
+        "tag": "composite index",
+        "panels": [
+          "SOURCE CODE",
+          "TABLE PAGES",
+          "QUERY PLAN",
+          "B-TREE: USERS_NAME_IDX",
+          "INDEX DEFINITION"
+        ]
+      },
+      {
+        "name": "The cost of indexes",
+        "tag": "write cost",
+        "panels": [
+          "SOURCE CODE",
+          "TABLE PAGES",
+          "QUERY PLAN",
+          "B-TREE: USERS_EMAIL_IDX",
+          "WRITE LOG"
+        ]
+      }
+    ]
+  },
+  "caching-strategies": {
+    "url": "https://visualizejs.com/backend/caching-strategies",
+    "topic": "backend",
+    "examples": [
+      {
+        "name": "Cache-aside",
+        "tag": "cache-aside",
+        "panels": [
+          "SOURCE CODE",
+          "CACHE STORE",
+          "STATS",
+          "MESSAGES"
+        ]
+      },
+      {
+        "name": "Write-through and write-behind",
+        "tag": "write policies",
+        "panels": [
+          "SOURCE CODE",
+          "CACHE STORE",
+          "STATS",
+          "WRITE QUEUE",
+          "MESSAGES"
+        ]
+      },
+      {
+        "name": "LRU eviction",
+        "tag": "lru eviction",
+        "panels": [
+          "SOURCE CODE",
+          "RECENCY LIST",
+          "CACHE STORE",
+          "STATS"
+        ]
+      }
+    ]
+  },
+  "jwt-authentication": {
+    "url": "https://visualizejs.com/backend/jwt-authentication",
+    "topic": "backend",
+    "examples": [
+      {
+        "name": "Login and token creation",
+        "tag": "issue token",
+        "panels": [
+          "SOURCE CODE",
+          "TOKEN PARTS",
+          "CLAIMS",
+          "MESSAGES"
+        ]
+      },
+      {
+        "name": "Verifying a protected request",
+        "tag": "verify token",
+        "panels": [
+          "SOURCE CODE",
+          "TOKEN PARTS",
+          "VERIFICATION STEPS",
+          "MESSAGES"
+        ]
+      },
+      {
+        "name": "Refresh tokens and logout",
+        "tag": "refresh and logout",
+        "panels": [
+          "SOURCE CODE",
+          "TOKEN LIFETIMES",
+          "MESSAGES",
+          "SERVER STORE"
+        ]
+      }
+    ]
+  },
+  "rate-limiting": {
+    "url": "https://visualizejs.com/backend/rate-limiting",
+    "topic": "backend",
+    "examples": [
+      {
+        "name": "Token bucket",
+        "tag": "token bucket",
+        "panels": [
+          "SOURCE CODE",
+          "BUCKET",
+          "TIMELINE",
+          "REQUEST LOG"
+        ]
+      },
+      {
+        "name": "Fixed window",
+        "tag": "fixed window",
+        "panels": [
+          "SOURCE CODE",
+          "WINDOW COUNTER",
+          "TIMELINE",
+          "REQUEST LOG"
+        ]
+      },
+      {
+        "name": "Sliding window log",
+        "tag": "sliding log",
+        "panels": [
+          "SOURCE CODE",
+          "TIMESTAMP LOG",
+          "TIMELINE",
+          "REQUEST LOG"
+        ]
+      }
+    ]
+  }
+}
