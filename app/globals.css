@@ -76,3 +76,21 @@
  .observed-pane-mobile[aria-label="CONSOLE OUTPUT"]{background:#0f172b}
 }
 @media(max-width:600px){.observed-pane-mobile>div>section>div div{max-width:100%!important;min-width:0!important;box-sizing:border-box}}
+/* Unified visualization palette: neutral surfaces and clear semantic accents. */
+.behavior-player{--viz-surface:#171d27;--viz-border:#364151;--viz-text:#e4eaf2;--viz-accent:#5dd6bf}
+.behavior-player .observed-board{background:#10151d;border-color:#303b4b;box-shadow:0 12px 32px #00000012}
+.behavior-player [data-observed-panel]{--pane-accent:#95b4e8}
+.behavior-player [data-observed-panel="SOURCE CODE"]{--pane-accent:#e8c783}
+.behavior-player [data-observed-panel="CALL STACK"],.behavior-player [data-observed-panel="PIPELINE"]{--pane-accent:#6dd8ca}
+.behavior-player [data-observed-panel="SCOPE CHAIN"],.behavior-player [data-observed-panel="COMPONENT TREE"]{--pane-accent:#b6a5ee}
+.behavior-player [data-observed-panel="CONSOLE OUTPUT"]{--pane-accent:#89d6a8}
+.behavior-player [data-observed-panel]>section,.behavior-player [data-observed-panel]>div>section{background:var(--viz-surface)!important;border-color:var(--viz-border)!important;box-shadow:none!important;color:var(--viz-text)!important}
+.behavior-player [data-observed-panel] section>header{background:#222b37!important;border-color:var(--viz-border)!important;color:#e4eaf2!important}
+.behavior-player [data-observed-panel] section>header>span{background:var(--pane-accent)!important;box-shadow:none!important}
+.behavior-player [data-observed-panel] section>div{background:transparent!important}
+.behavior-player .match-controls{border-color:#354151}
+.behavior-player .match-transport>button,.behavior-player .match-transport>select,.behavior-player .match-step,.behavior-player .match-example select,.behavior-player .match-sandbox-toggle{background:#202a36;border-color:#3d4a5b;color:#dbe5f2}
+.behavior-player .match-transport>.match-play{background:#19443f;border-color:#60c8b5;color:#adf1e0;box-shadow:none}
+.behavior-player .match-transport input{accent-color:#62cdb8}
+.behavior-player .match-explanation{background:#1c2932;border-color:#3c525d;color:#d0e5e8}
+.behavior-player .match-footer{color:var(--muted)}
