@@ -6,10 +6,11 @@ import MatchedLab from './MatchedLab';
 const recordings=new Map();
 const tags=new Set('section header div span p pre code ul ol li dl dt dd table thead tbody tr th td button strong b small em i s label input textarea select option h1 h2 h3 h4 hr br a svg g path line rect circle ellipse polyline polygon text tspan defs marker foreignObject linearGradient radialGradient stop clipPath title'.split(' '));
 const attributeNames={'stroke-width':'strokeWidth','stroke-dasharray':'strokeDasharray','stroke-linecap':'strokeLinecap','stroke-linejoin':'strokeLinejoin','marker-end':'markerEnd','marker-start':'markerStart','text-anchor':'textAnchor','dominant-baseline':'dominantBaseline','clip-path':'clipPath','stop-color':'stopColor','stop-opacity':'stopOpacity',colspan:'colSpan',rowspan:'rowSpan',readonly:'readOnly'};
-function ObservedNode({index,recording,prefix,onAction}){
+function ObservedNode({index,recording,prefix,onAction,rootStyle}){
  if(typeof index==='string')return index;
  const node=recording.nodes[index];if(!node||!tags.has(node.t))return null;
  const props={style:recording.styleBase?{...recording.styleBase,...recording.styles[node.s]}:recording.styles[node.s]};
+ if(rootStyle)Object.assign(props.style={...props.style},rootStyle);
  for(const [key,value] of Object.entries(node.a||{})){const name=attributeNames[key]||key;let next=value;if(name==='id')next=prefix+value;else if(typeof value==='string'&&value.includes('url(#'))next=value.replace(/url\(#([^)]+)\)/g,(_,id)=>'url(#'+prefix+id+')');if(['checked','readOnly','disabled'].includes(name))next=value===true||value==='';props[name]=next;}
  if(['input','textarea','select'].includes(node.t)){props.readOnly=true;if(props.value!==undefined){props.defaultValue=props.value;delete props.value;}}
  if(node.t==='button')props.onClick=()=>onAction?.(index);
@@ -22,7 +23,12 @@ function ObservedScene({frame,recording,onAction}){
  useLayoutEffect(()=>{if(!host.current)return;const measure=()=>{const style=getComputedStyle(host.current);setWidth(host.current.clientWidth-parseFloat(style.paddingLeft)-parseFloat(style.paddingRight))};measure();const observer=new ResizeObserver(measure);observer.observe(host.current);return()=>observer.disconnect()},[]);
  const narrow=width>0&&width<600,scale=width?width/frame.width:1;
  return <div className={'observed-board '+(narrow?'observed-narrow':'')} ref={host}>
- {narrow?frame.panels.map((pane,i)=>{const s=width*0.75/pane.r[2],sourceHeight=pane.name==='SOURCE CODE'?recording.nodes[pane.n].c.filter(n=>typeof n==='number').reduce((h,n)=>h+parseFloat(({...recording.styleBase,...recording.styles[recording.nodes[n].s]}).height||0),2):0,paneHeight=sourceHeight||pane.r[3];return <div className="observed-pane-mobile" data-observed-panel={pane.name} role="region" aria-label={pane.name} key={pane.name+'-'+i} style={{width:width*0.75,height:paneHeight*s}}><div style={{width:pane.r[2],height:paneHeight,transform:`scale(${s})`,transformOrigin:'top left'}}><RecordedNode index={pane.n} recording={recording} prefix={recording.id+'-'+i+'-'} onAction={onAction}/></div></div>}):<div className="observed-canvas-space" style={{height:frame.height*scale}}><div className="observed-canvas" style={{width:frame.width,height:frame.height,transform:`scale(${scale})`}}>{frame.panels.map((pane,i)=><div className="observed-pane" data-observed-panel={pane.name} role="region" aria-label={pane.name} key={pane.name+'-'+i} style={{left:pane.r[0],top:pane.r[1],width:pane.r[2],height:pane.r[3]}}><RecordedNode index={pane.n} recording={recording} prefix={recording.id+'-'+i+'-'} onAction={onAction}/></div>)}</div></div>}
+ {narrow?frame.panels.map((pane,i)=>{
+ const s=0.72,virtualWidth=width/s;
+ const sourceHeight=pane.name==='SOURCE CODE'?recording.nodes[pane.n].c.filter(n=>typeof n==='number').reduce((h,n)=>h+parseFloat(({...recording.styleBase,...recording.styles[recording.nodes[n].s]}).height||0),2):0;
+ const consolePanel=/CONSOLE|OUTPUT/.test(pane.name),naturalHeight=(sourceHeight||pane.r[3])*s,visibleHeight=consolePanel?Math.max(160,naturalHeight):Math.min(sourceHeight?260:120,naturalHeight),renderHeight=Math.max(sourceHeight||pane.r[3],visibleHeight/s);
+ return <div className="observed-pane-mobile" data-observed-panel={pane.name} role="region" aria-label={pane.name} key={pane.name+'-'+i} style={{width,height:visibleHeight}}><div style={{width:virtualWidth,height:renderHeight,zoom:s}}><RecordedNode index={pane.n} recording={recording} prefix={recording.id+'-'+i+'-'} rootStyle={{width:virtualWidth,height:renderHeight,minHeight:0}} onAction={onAction}/></div></div>
+ }):<div className="observed-canvas-space" style={{height:frame.height*scale}}><div className="observed-canvas" style={{width:frame.width,height:frame.height,transform:`scale(${scale})`}}>{frame.panels.map((pane,i)=><div className="observed-pane" data-observed-panel={pane.name} role="region" aria-label={pane.name} key={pane.name+'-'+i} style={{left:pane.r[0],top:pane.r[1],width:pane.r[2],height:pane.r[3]}}><RecordedNode index={pane.n} recording={recording} prefix={recording.id+'-'+i+'-'} onAction={onAction}/></div>)}</div></div>}
  </div>
 }
 function RecordedPlayer({recording}){

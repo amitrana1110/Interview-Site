@@ -67,4 +67,9 @@
  .behavior-player .match-explanation{padding:7px 10px;min-height:36px;margin-bottom:8px;font-size:10px;line-height:1.4}.observed-narrow{padding:10px;border:1px solid #2d405c;border-radius:22px;background:#0f172b;overflow:hidden}.observed-pane-mobile{border-radius:12px;margin:0 auto 8px}.behavior-player .match-footer{font-size:10px}.behavior-player .match-footer>span:last-child{display:none}
 }
 
-@media(max-width:600px){.observed-pane-mobile[aria-label="SOURCE CODE"]>div>section{height:auto!important;min-height:0!important}}
+@media(max-width:600px){
+ .observed-pane-mobile{overflow:auto;scrollbar-width:thin;scrollbar-color:#40516b #0f172b}
+ .observed-pane-mobile>div>section>header,.observed-pane-mobile>div>section>div{width:100%!important;max-width:100%!important;box-sizing:border-box}
+ .observed-pane-mobile[aria-label="CONSOLE OUTPUT"]{background:#0f172b}
+}
+@media(max-width:600px){.observed-pane-mobile>div>section>div div{max-width:100%!important;min-width:0!important;box-sizing:border-box}}
